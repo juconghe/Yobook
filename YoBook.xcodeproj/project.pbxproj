@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58AF94581E2473E600427ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF94571E2473E600427ECD /* AppDelegate.swift */; };
+		58AF945A1E2473E600427ECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF94591E2473E600427ECD /* ViewController.swift */; };
+		58AF945D1E2473E600427ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AF945B1E2473E600427ECD /* Main.storyboard */; };
+		58AF94601E2473E600427ECD /* YoBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58AF945E1E2473E600427ECD /* YoBook.xcdatamodeld */; };
+		58AF94621E2473E600427ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AF94611E2473E600427ECD /* Assets.xcassets */; };
+		58AF94651E2473E600427ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AF94631E2473E600427ECD /* LaunchScreen.storyboard */; };
+		58AF94701E2473E600427ECD /* YoBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF946F1E2473E600427ECD /* YoBookTests.swift */; };
+		58AF947B1E2473E600427ECD /* YoBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF947A1E2473E600427ECD /* YoBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58AF946C1E2473E600427ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58AF944C1E2473E600427ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AF94531E2473E600427ECD;
+			remoteInfo = YoBook;
+		};
+		58AF94771E2473E600427ECD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58AF944C1E2473E600427ECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AF94531E2473E600427ECD;
+			remoteInfo = YoBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58AF94541E2473E600427ECD /* YoBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AF94571E2473E600427ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58AF94591E2473E600427ECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58AF945C1E2473E600427ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58AF945F1E2473E600427ECD /* YoBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YoBook.xcdatamodel; sourceTree = "<group>"; };
+		58AF94611E2473E600427ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58AF94641E2473E600427ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58AF94661E2473E600427ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AF946B1E2473E600427ECD /* YoBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AF946F1E2473E600427ECD /* YoBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoBookTests.swift; sourceTree = "<group>"; };
+		58AF94711E2473E600427ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AF94761E2473E600427ECD /* YoBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AF947A1E2473E600427ECD /* YoBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoBookUITests.swift; sourceTree = "<group>"; };
+		58AF947C1E2473E600427ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58AF94511E2473E600427ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF94681E2473E600427ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF94731E2473E600427ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58AF944B1E2473E600427ECD = {
+			isa = PBXGroup;
+			children = (
+				58AF94561E2473E600427ECD /* YoBook */,
+				58AF946E1E2473E600427ECD /* YoBookTests */,
+				58AF94791E2473E600427ECD /* YoBookUITests */,
+				58AF94551E2473E600427ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58AF94551E2473E600427ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58AF94541E2473E600427ECD /* YoBook.app */,
+				58AF946B1E2473E600427ECD /* YoBookTests.xctest */,
+				58AF94761E2473E600427ECD /* YoBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58AF94561E2473E600427ECD /* YoBook */ = {
+			isa = PBXGroup;
+			children = (
+				58AF94571E2473E600427ECD /* AppDelegate.swift */,
+				58AF94591E2473E600427ECD /* ViewController.swift */,
+				58AF945B1E2473E600427ECD /* Main.storyboard */,
+				58AF94611E2473E600427ECD /* Assets.xcassets */,
+				58AF94631E2473E600427ECD /* LaunchScreen.storyboard */,
+				58AF94661E2473E600427ECD /* Info.plist */,
+				58AF945E1E2473E600427ECD /* YoBook.xcdatamodeld */,
+			);
+			path = YoBook;
+			sourceTree = "<group>";
+		};
+		58AF946E1E2473E600427ECD /* YoBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				58AF946F1E2473E600427ECD /* YoBookTests.swift */,
+				58AF94711E2473E600427ECD /* Info.plist */,
+			);
+			path = YoBookTests;
+			sourceTree = "<group>";
+		};
+		58AF94791E2473E600427ECD /* YoBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58AF947A1E2473E600427ECD /* YoBookUITests.swift */,
+				58AF947C1E2473E600427ECD /* Info.plist */,
+			);
+			path = YoBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58AF94531E2473E600427ECD /* YoBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AF947F1E2473E600427ECD /* Build configuration list for PBXNativeTarget "YoBook" */;
+			buildPhases = (
+				58AF94501E2473E600427ECD /* Sources */,
+				58AF94511E2473E600427ECD /* Frameworks */,
+				58AF94521E2473E600427ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoBook;
+			productName = YoBook;
+			productReference = 58AF94541E2473E600427ECD /* YoBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58AF946A1E2473E600427ECD /* YoBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AF94821E2473E600427ECD /* Build configuration list for PBXNativeTarget "YoBookTests" */;
+			buildPhases = (
+				58AF94671E2473E600427ECD /* Sources */,
+				58AF94681E2473E600427ECD /* Frameworks */,
+				58AF94691E2473E600427ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58AF946D1E2473E600427ECD /* PBXTargetDependency */,
+			);
+			name = YoBookTests;
+			productName = YoBookTests;
+			productReference = 58AF946B1E2473E600427ECD /* YoBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58AF94751E2473E600427ECD /* YoBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AF94851E2473E600427ECD /* Build configuration list for PBXNativeTarget "YoBookUITests" */;
+			buildPhases = (
+				58AF94721E2473E600427ECD /* Sources */,
+				58AF94731E2473E600427ECD /* Frameworks */,
+				58AF94741E2473E600427ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58AF94781E2473E600427ECD /* PBXTargetDependency */,
+			);
+			name = YoBookUITests;
+			productName = YoBookUITests;
+			productReference = 58AF94761E2473E600427ECD /* YoBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58AF944C1E2473E600427ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jucong He";
+				TargetAttributes = {
+					58AF94531E2473E600427ECD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3QSRPZRY9E;
+						ProvisioningStyle = Automatic;
+					};
+					58AF946A1E2473E600427ECD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3QSRPZRY9E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58AF94531E2473E600427ECD;
+					};
+					58AF94751E2473E600427ECD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3QSRPZRY9E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58AF94531E2473E600427ECD;
+					};
+				};
+			};
+			buildConfigurationList = 58AF944F1E2473E600427ECD /* Build configuration list for PBXProject "YoBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58AF944B1E2473E600427ECD;
+			productRefGroup = 58AF94551E2473E600427ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58AF94531E2473E600427ECD /* YoBook */,
+				58AF946A1E2473E600427ECD /* YoBookTests */,
+				58AF94751E2473E600427ECD /* YoBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58AF94521E2473E600427ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF94651E2473E600427ECD /* LaunchScreen.storyboard in Resources */,
+				58AF94621E2473E600427ECD /* Assets.xcassets in Resources */,
+				58AF945D1E2473E600427ECD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF94691E2473E600427ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF94741E2473E600427ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58AF94501E2473E600427ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF945A1E2473E600427ECD /* ViewController.swift in Sources */,
+				58AF94601E2473E600427ECD /* YoBook.xcdatamodeld in Sources */,
+				58AF94581E2473E600427ECD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF94671E2473E600427ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF94701E2473E600427ECD /* YoBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF94721E2473E600427ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF947B1E2473E600427ECD /* YoBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58AF946D1E2473E600427ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AF94531E2473E600427ECD /* YoBook */;
+			targetProxy = 58AF946C1E2473E600427ECD /* PBXContainerItemProxy */;
+		};
+		58AF94781E2473E600427ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AF94531E2473E600427ECD /* YoBook */;
+			targetProxy = 58AF94771E2473E600427ECD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58AF945B1E2473E600427ECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AF945C1E2473E600427ECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58AF94631E2473E600427ECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AF94641E2473E600427ECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58AF947D1E2473E600427ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58AF947E1E2473E600427ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58AF94801E2473E600427ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucong.YoBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		58AF94811E2473E600427ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucong.YoBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		58AF94831E2473E600427ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucong.YoBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoBook.app/YoBook";
+			};
+			name = Debug;
+		};
+		58AF94841E2473E600427ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucong.YoBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoBook.app/YoBook";
+			};
+			name = Release;
+		};
+		58AF94861E2473E600427ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucong.YoBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YoBook;
+			};
+			name = Debug;
+		};
+		58AF94871E2473E600427ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3QSRPZRY9E;
+				INFOPLIST_FILE = YoBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jucong.YoBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YoBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58AF944F1E2473E600427ECD /* Build configuration list for PBXProject "YoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF947D1E2473E600427ECD /* Debug */,
+				58AF947E1E2473E600427ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AF947F1E2473E600427ECD /* Build configuration list for PBXNativeTarget "YoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF94801E2473E600427ECD /* Debug */,
+				58AF94811E2473E600427ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58AF94821E2473E600427ECD /* Build configuration list for PBXNativeTarget "YoBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF94831E2473E600427ECD /* Debug */,
+				58AF94841E2473E600427ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58AF94851E2473E600427ECD /* Build configuration list for PBXNativeTarget "YoBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF94861E2473E600427ECD /* Debug */,
+				58AF94871E2473E600427ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58AF945E1E2473E600427ECD /* YoBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58AF945F1E2473E600427ECD /* YoBook.xcdatamodel */,
+			);
+			currentVersion = 58AF945F1E2473E600427ECD /* YoBook.xcdatamodel */;
+			path = YoBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58AF944C1E2473E600427ECD /* Project object */;
+}
